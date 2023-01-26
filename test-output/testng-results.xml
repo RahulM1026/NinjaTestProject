@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="13" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T15:23:27 IST" name="Suite" finished-at="2023-01-25T15:24:42 IST" duration-ms="74707">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T15:23:27 IST" name="Test" finished-at="2023-01-25T15:24:42 IST" duration-ms="74707">
+      <class name="Npack.AddToCartTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.AddToCartTest@3270d194]" started-at="2023-01-25T15:24:27 IST" name="Setup" finished-at="2023-01-25T15:24:31 IST" duration-ms="4212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddToCartProductBySearch()[pri:1, instance:Npack.AddToCartTest@3270d194]" started-at="2023-01-25T15:24:31 IST" name="AddToCartProductBySearch" finished-at="2023-01-25T15:24:35 IST" duration-ms="3695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartProductBySearch -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:Npack.AddToCartTest@3270d194]" started-at="2023-01-25T15:24:35 IST" name="closing" finished-at="2023-01-25T15:24:35 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.AddToCartTest@3270d194]" started-at="2023-01-25T15:24:35 IST" name="Setup" finished-at="2023-01-25T15:24:39 IST" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="AddToCartBySelectProduct()[pri:2, instance:Npack.AddToCartTest@3270d194]" started-at="2023-01-25T15:24:39 IST" name="AddToCartBySelectProduct" finished-at="2023-01-25T15:24:41 IST" duration-ms="2269" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cdf0fe5a857faecd472c8c4e8dc9277, clickElement {id=e6859376-afb7-438c-8cd9-6835784caf51}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\VISHNU\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:13917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13917/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1cdf0fe5a857faecd472c8c4e8dc9277)] -> xpath: //header/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/div[1]/p[1]/a[2]/strong[1]]
+Session ID: 1cdf0fe5a857faecd472c8c4e8dc9277]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1cdf0fe5a857faecd472c8c4e8dc9277, clickElement {id=e6859376-afb7-438c-8cd9-6835784caf51}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\VISHNU\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:13917}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13917/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1cdf0fe5a857faecd472c8c4e8dc9277)] -> xpath: //header/div[1]/div[1]/div[3]/div[1]/ul[1]/li[2]/div[1]/p[1]/a[2]/strong[1]]
+Session ID: 1cdf0fe5a857faecd472c8c4e8dc9277
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+at jdk.proxy2/jdk.proxy2.$Proxy18.click(Unknown Source)
+at com.ninja.qa.pages.ProductPage.CartBtn(ProductPage.java:52)
+at Npack.AddToCartTest.AddToCartBySelectProduct(AddToCartTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartBySelectProduct -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:Npack.AddToCartTest@3270d194]" started-at="2023-01-25T15:24:41 IST" name="closing" finished-at="2023-01-25T15:24:42 IST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- Npack.AddToCartTest -->
+      <class name="Npack.SearchTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:07 IST" name="Setup" finished-at="2023-01-25T15:24:09 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchValidProduct()[pri:1, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:09 IST" name="SearchValidProduct" finished-at="2023-01-25T15:24:19 IST" duration-ms="10558" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sony VAIO"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [460ebcbb4e8b62cb584497e45264c3d5, findElement {using=link text, value=Sony VAIO}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\VISHNU\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:13795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13795/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 460ebcbb4e8b62cb584497e45264c3d5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sony VAIO"}
+  (Session info: chrome=109.0.5414.75)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.7.2', revision: '4d4020c3b7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [460ebcbb4e8b62cb584497e45264c3d5, findElement {using=link text, value=Sony VAIO}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.75, chrome: {chromedriverVersion: 109.0.5414.74 (e7c5703604da..., userDataDir: C:\Users\VISHNU\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:13795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:13795/devtoo..., se:cdpVersion: 109.0.5414.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 460ebcbb4e8b62cb584497e45264c3d5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy18.isDisplayed(Unknown Source)
+at com.ninja.qa.pages.SearchPage.TextInfo(SearchPage.java:40)
+at Npack.SearchTest.SearchValidProduct(SearchTest.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchValidProduct -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:19 IST" name="Close" finished-at="2023-01-25T15:24:20 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:20 IST" name="Setup" finished-at="2023-01-25T15:24:22 IST" duration-ms="2229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchInValidProduct()[pri:2, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:22 IST" name="SearchInValidProduct" finished-at="2023-01-25T15:24:23 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInValidProduct -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:23 IST" name="Close" finished-at="2023-01-25T15:24:23 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:23 IST" name="Setup" finished-at="2023-01-25T15:24:26 IST" duration-ms="3549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SearchNoProduct()[pri:3, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:26 IST" name="SearchNoProduct" finished-at="2023-01-25T15:24:27 IST" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchNoProduct -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Npack.SearchTest@55182842]" started-at="2023-01-25T15:24:27 IST" name="Close" finished-at="2023-01-25T15:24:27 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Npack.SearchTest -->
+      <class name="Npack.RegisterTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:27 IST" name="Setup" finished-at="2023-01-25T15:23:31 IST" duration-ms="3932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisterWithFields()[pri:1, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:31 IST" name="RegisterWithFields" finished-at="2023-01-25T15:23:33 IST" duration-ms="1948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithFields -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:33 IST" name="Close" finished-at="2023-01-25T15:23:34 IST" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:34 IST" name="Setup" finished-at="2023-01-25T15:23:36 IST" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisterWithAllFields()[pri:2, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:36 IST" name="RegisterWithAllFields" finished-at="2023-01-25T15:23:37 IST" duration-ms="1894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithAllFields -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:37 IST" name="Close" finished-at="2023-01-25T15:23:38 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:38 IST" name="Setup" finished-at="2023-01-25T15:23:40 IST" duration-ms="2089" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="RegisterWithoutFields()[pri:3, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:40 IST" name="RegisterWithoutFields" finished-at="2023-01-25T15:23:41 IST" duration-ms="1063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterWithoutFields -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:Npack.RegisterTest@72967906]" started-at="2023-01-25T15:23:41 IST" name="Close" finished-at="2023-01-25T15:23:41 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Npack.RegisterTest -->
+      <class name="Npack.LoginTest">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:42 IST" name="Setup" finished-at="2023-01-25T15:23:44 IST" duration-ms="2383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Validinput(java.lang.String,java.lang.String)[pri:1, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:44 IST" name="Validinput" data-provider="ValidInput" finished-at="2023-01-25T15:23:45 IST" duration-ms="793" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahullmarrikomadinne@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rahul@1026]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validinput -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:45 IST" name="Closing" finished-at="2023-01-25T15:23:45 IST" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:45 IST" name="Setup" finished-at="2023-01-25T15:23:48 IST" duration-ms="2416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Validinput(java.lang.String,java.lang.String)[pri:1, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:48 IST" name="Validinput" data-provider="ValidInput" finished-at="2023-01-25T15:23:49 IST" duration-ms="987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mrahul.rm84@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validinput -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:49 IST" name="Closing" finished-at="2023-01-25T15:23:49 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:49 IST" name="Setup" finished-at="2023-01-25T15:23:52 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Validinput(java.lang.String,java.lang.String)[pri:1, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:52 IST" name="Validinput" data-provider="ValidInput" finished-at="2023-01-25T15:23:52 IST" duration-ms="737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahulmarrikomadinne2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Validinput -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:52 IST" name="Closing" finished-at="2023-01-25T15:23:53 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:53 IST" name="Setup" finished-at="2023-01-25T15:23:55 IST" duration-ms="2628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="InvalidInput()[pri:2, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:55 IST" name="InvalidInput" finished-at="2023-01-25T15:23:56 IST" duration-ms="684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidInput -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:56 IST" name="Closing" finished-at="2023-01-25T15:23:56 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:56 IST" name="Setup" finished-at="2023-01-25T15:23:59 IST" duration-ms="2428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ValidMailInvalidPassword()[pri:3, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:59 IST" name="ValidMailInvalidPassword" finished-at="2023-01-25T15:23:59 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMailInvalidPassword -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:23:59 IST" name="Closing" finished-at="2023-01-25T15:24:00 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:24:00 IST" name="Setup" finished-at="2023-01-25T15:24:02 IST" duration-ms="2497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="InvalidMailValidPassword()[pri:4, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:24:02 IST" name="InvalidMailValidPassword" finished-at="2023-01-25T15:24:03 IST" duration-ms="718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMailValidPassword -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:24:03 IST" name="Closing" finished-at="2023-01-25T15:24:03 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:24:03 IST" name="Setup" finished-at="2023-01-25T15:24:06 IST" duration-ms="2655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithoutInput()[pri:5, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:24:06 IST" name="LoginWithoutInput" finished-at="2023-01-25T15:24:06 IST" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithoutInput -->
+        <test-method is-config="true" signature="Closing()[pri:0, instance:Npack.LoginTest@55141def]" started-at="2023-01-25T15:24:06 IST" name="Closing" finished-at="2023-01-25T15:24:07 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closing -->
+      </class> <!-- Npack.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
